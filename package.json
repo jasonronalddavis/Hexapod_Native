@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
@@ -33,5 +34,11 @@
   },
   "engines": {
     "node": ">=18"
+=======
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react-native": "0.74.2"
+>>>>>>> origin/master
   }
 }

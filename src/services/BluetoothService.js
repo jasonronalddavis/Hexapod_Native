@@ -76,4 +76,8 @@ class BluetoothService {
   }
 }
 
+<<<<<<< HEAD
 export default BluetoothService;
+=======
+export default BluetoothService;
+>>>>>>> origin/master

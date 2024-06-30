@@ -28,7 +28,11 @@ const HexapodControl = ({ device }) => {
     if (device) {
       BluetoothService.sendCommand(device, direction);
     }
+<<<<<<< HEAD
   };i
+=======
+  };
+>>>>>>> origin/master
 
   const stopCrawl = (direction) => {
     if (device) {
@@ -374,4 +378,8 @@ const styles = StyleSheet.create({
   },
 });
 
+<<<<<<< HEAD
 export default HexapodControl;
+=======
+export default HexapodControl;
+>>>>>>> origin/master
