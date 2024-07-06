@@ -28,11 +28,7 @@ const HexapodControl = ({ device }) => {
     if (device) {
       BluetoothService.sendCommand(device, direction);
     }
-<<<<<<< HEAD
-  };i
-=======
   };
->>>>>>> origin/master
 
   const stopCrawl = (direction) => {
     if (device) {
@@ -289,8 +285,7 @@ const styles = StyleSheet.create({
   standButton: {
     color: 'none',
     border: 'none',
-    background: 'none',
-    zIndex: 90,
+    background: 'none',zIndex: 90,
     position: 'absolute',
     top: 470,
     right: 450,
@@ -355,31 +350,6 @@ const styles = StyleSheet.create({
     top: 280,
     height: 250,
   },
-  crawlImage: {
-    height: 70,
-  },
-  crawlImageHover: {
-    height: 75,
-  },
-  leftButton: {
-    color: 'none',
-    border: 'none',
-    background: 'none',
-    zIndex: 90,
-    position: 'absolute',
-    top: -240,
-    right: 320,
-    height: 140,
-  },
-  leftButtonHover: {
-    height: 180,
-    top: -260,
-    width: 100,
-  },
 });
 
-<<<<<<< HEAD
 export default HexapodControl;
-=======
-export default HexapodControl;
->>>>>>> origin/master
