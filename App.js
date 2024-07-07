@@ -8,7 +8,7 @@ const App = () => {
       <BluetoothControl />
       <Image
         style={styles.background}
-        source={require('./src/Images/background.png')}
+        source={require('./src/components/Images/background.png')}
       />
     </View>
   );
