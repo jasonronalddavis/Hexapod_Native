@@ -74,10 +74,6 @@ class BluetoothService {
   static off(event, handler) {
     bleManagerEmitter.removeListener(event, handler);
   }
-}
+};
 
-<<<<<<< HEAD
 export default BluetoothService;
-=======
-export default BluetoothService;
->>>>>>> origin/master
