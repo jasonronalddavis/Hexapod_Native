@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
 import { View, Button, StyleSheet, Image, PanResponder, TouchableOpacity } from 'react-native';
 import BluetoothService from '../services/BluetoothService';
-import eyeBar from './images/eyeBar.png';
-import eyeBarCopy from './images/eyeBarCopy.png';
-import eyeWindow from './images/eyeWindow.png';
-import FrontEyeBar from './images/FrontEyeBar.png';
-import mouthWindow from './images/mouthWindow.png';
-import crawl_forward from './images/crawl_forward.png';
-import crawl_backward from './images/crawl_backward.png';
-import crawl_right from './images/crawl_right.png';
-import crawl_left from './images/crawl_left.png';
-import stand_image from './images/stand.png';
-import squat_down from './images/squat_down.png';
-import body_window from './images/body_window.png';
-import blink_button from './images/blink_button.png';
-import mouth from './images/mouth.png';
-import stretch_image from './images/stretch_image.png';
+import eyeBar from '../Images/eyeBar.png';
+import eyeBarCopy from '../Images/eyeBarCopy.png';
+import eyeWindow from '../Images/eyeWindow.png';
+import FrontEyeBar from '../Images/FrontEyeBar.png';
+import mouthWindow from '../Images/mouthWindow.png';
+import crawl_forward from '../Images/crawl_forward.png';
+import crawl_backward from '../Images/crawl_backward.png';
+import crawl_right from '../Images/crawl_right.png';
+import crawl_left from '../Images/crawl_left.png';
+import stand_image from '../Images/stand.png';
+import squat_down from '../Images/squat_down.png';
+import body_window from '../Images/body_window.png';
+import blink_button from '../Images/blink_button.png';
+import mouth from '../Images/mouth.png';
+import stretch_image from '../Images/stretch_image.png';
 
 const HexapodControl = ({ device }) => {
   const [width, setWidth] = useState(140);
